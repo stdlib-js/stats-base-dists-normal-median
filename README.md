@@ -67,7 +67,7 @@ The [median][median] for a [normal][normal-distribution] random variable with me
 ## Usage
 
 ```javascript
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-median@deno/mod.js';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-median@v0.2.2-deno/mod.js';
 ```
 
 #### median( mu, sigma )
@@ -127,7 +127,7 @@ y = median( 0.0, -1.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-median@deno/mod.js';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-median@v0.2.2-deno/mod.js';
 
 var sigma;
 var mu;
