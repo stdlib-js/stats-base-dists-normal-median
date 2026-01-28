@@ -67,6 +67,11 @@ The [median][median] for a [normal][normal-distribution] random variable with me
 ## Usage
 
 ```javascript
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-median@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-normal-median/tags). For example,
+
+```javascript
 import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-median@v0.3.0-esm/index.mjs';
 ```
 
@@ -133,7 +138,7 @@ y = median( 0.0, -1.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-median@v0.3.0-esm/index.mjs';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-median@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
